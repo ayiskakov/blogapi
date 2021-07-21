@@ -4,12 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha --timeout 5000",
     "start": "nodemon app.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://git-codecommit.us-east-1.amazonaws.com/v1/repos/udemy-course-nodejs-complete"
   },
   "author": "",
   "license": "ISC",
@@ -24,6 +20,9 @@
     "socket.io": "^2.1.1"
   },
   "devDependencies": {
-    "nodemon": "^1.18.4"
+    "chai": "^4.2.0",
+    "mocha": "^6.0.2",
+    "nodemon": "^1.18.4",
+    "sinon": "^7.2.7"
   }
 }
